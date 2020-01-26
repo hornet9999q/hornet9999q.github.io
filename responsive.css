@@ -8,7 +8,12 @@
    }
 
    header{
-    max-width:50%;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+   }
+
+   .header-inner{
     width:345px;
     margin-left:auto;
     margin-right:auto;
@@ -17,9 +22,7 @@
     .top{
         display:block;
         max-width:1080px;
-        /* width:80%; */
         flex-direction: column;
-        max-width:50%;
         width:345px;
         margin-left:auto;
         margin-right:auto;
@@ -55,13 +58,18 @@
        margin-top:10px;
    }
 
-   .CONTACT{
+   .contact{
        margin-top: 20px;
        margin-bottom: 15px;
    }
 
-   .SERVICE{
+   .service{
     margin-top:100px;
+    max-width:1080px;
+    flex-direction: column;
+    width:345px;
+    margin-left:auto;
+    margin-right:auto;
    }
 
    .service-title{
@@ -109,9 +117,8 @@
        margin-top:0;
    }
 
-   .ABOUT{
-       max-width:1080px;
-       width:80%;
+   .about{
+       width:375px;
        margin-left:auto;
        margin-right:auto;
        display:block;
@@ -122,7 +129,6 @@
    .about-container{
       margin-top:80px;
       flex-direction: column;
-      max-width:50%;
       width:345px;
       margin-left:auto;
       margin-right:auto;
@@ -130,10 +136,8 @@
    }
 
    .about-container2{
-       /* display:block; */
        margin-top:351px;
        flex-direction: column;
-       max-width:50%;
        width:345px;
        margin-left:auto;
        margin-right:auto;
@@ -161,6 +165,13 @@
      margin-top:30px;
 
  }
+
+.news{
+    width:375px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
  .news-title{
     margin-top:100px;
     margin-bottom:80px;
@@ -202,6 +213,8 @@
 
    footer{
        width:375px;
+       display:flex;
+       justify-content:center;
    }
 
    .footer-menu{
@@ -211,6 +224,7 @@
     margin: 0px 100px 12px 100px;
     padding-top:25px;
     margin-bottom:0;
+    width:375px;
 }
 footer ul{
     display:block;
@@ -229,4 +243,10 @@ footer ul li{
     margin-top:40px;
     padding-bottom:20px;
 }
+
+.last-btn{
+    width:375px;
+}
+
+
 }
