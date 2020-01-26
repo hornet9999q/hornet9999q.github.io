@@ -9,13 +9,12 @@ body{
 
 .body-inner{
     max-width:1080px;
-    /* width:80%; */
     margin-left:auto;
     margin-right:auto;
 }
 
 header{
-    width:100%;
+    min-width:1080px;
     height:70px;
 }
 
@@ -93,10 +92,13 @@ header{
 }
 
 .top{
-    /* max-width:1280px;
-    width:100%; */
+    min-width:1080px;
+    height:auto;
+}
+
+.top-inner{
     width:1080px;
-    margin-top:80px;
+    margin:80px auto 0 auto;
     display:flex;
     flex-flow: row-reverse;
 }
@@ -109,6 +111,8 @@ header{
 .top-txt p{
     width:400px;
     height:43px;
+    margin-bottom:40px;
+    margin-top:34px;
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
 }
 
@@ -181,12 +185,12 @@ header{
     justify-content:space-around;
 }
 
-.service-container img{
+.service-inner img{
     width:200px;
     height:200px;
 }
 
-.service-container p{
+.service-inner p{
     font-weight: bold;
     margin-top:30px;
     margin-bottom:0;
@@ -212,14 +216,14 @@ header{
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
 }
 
-.about-container2 img,
-.about-container img{
+.about-inner2 img,
+.about-inner img{
     width:450px;
     height:278px;
     box-shadow: 0px 11px 20px #00000029;
 }
 
-.about-container{
+.about-inner{
     display:flex;
     flex-flow:row-reverse;
     margin-top:100px;
@@ -229,7 +233,7 @@ header{
     margin-right:auto;
 }
 
-.about-container2{
+.about-inner2{
     display:flex;
     margin-top:100px;
     width:940px;
@@ -237,7 +241,7 @@ header{
     margin-right:auto;
 }
 
-.about-container2 .about-txt p{
+.about-inner2 .about-txt p{
     height:97px;
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
 }
@@ -336,12 +340,12 @@ header{
     font-weight:bold;
 }
 
-.category-container{
+/* .category-inner{
     position:absolute;
     top:37px;
     left:488px;
     display:inline-block;
-}
+} */
 
 .category-txt {
     font-size: 14px;
@@ -360,10 +364,13 @@ header{
 
 footer{
     background:#E8E8E8;
-    width:1080px;
-    margin-left:auto;
-    margin-right:auto;
+    min-width:1080px;
     text-align:center;
+}
+
+.footer-inner{
+    width:1080px;
+    margin:0 auto;
 }
 
 .footer-menu{

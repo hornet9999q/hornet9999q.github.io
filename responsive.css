@@ -8,9 +8,7 @@
    }
 
    header{
-    width:100%;
-    margin-left:auto;
-    margin-right:auto;
+    min-width:345px;
    }
 
    .header-inner{
@@ -19,9 +17,15 @@
     margin-right:auto;
    }
 
-    .top{
+.top{
+    min-width:345px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+    .top-inner{
         display:block;
-        max-width:1080px;
+        /* max-width:1080px; */
         flex-direction: column;
         width:345px;
         margin-left:auto;
@@ -29,19 +33,20 @@
         text-align:center;
     }
 
-   .top img{
+   .top-inner img{
        width:345px;
        height:276px;
        margin-left:auto;
        margin-right:auto;
    }
 
-   .top h2{
+   .top-inner h2{
        width:196px;
        /* height:76px; */
        font-size:28px;
        margin-right:auto;
        margin-left:auto;
+       margin-bottom:22px;
    }
 
     .top-txt p{
@@ -89,7 +94,7 @@
     padding-top:50px;
 }
 
-.about-container2 .about-txt p{
+.about-inner2 .about-txt p{
     height:124px;
     margin-bottom: 0;
 }
@@ -109,11 +114,11 @@
        flex-direction: column;
    }
 
-   .service-container{
+   .service-inner{
        margin-top:50px;
    }
 
-   .service-content .service-container:nth-of-type(1){
+   .service-content .service-inner:nth-of-type(1){
        margin-top:0;
    }
 
@@ -126,7 +131,7 @@
        margin-top:100px;
    }
 
-   .about-container{
+   .about-inner{
       margin-top:80px;
       flex-direction: column;
       width:345px;
@@ -135,7 +140,7 @@
       height:494px;
    }
 
-   .about-container2{
+   .about-inner2{
        margin-top:351px;
        flex-direction: column;
        width:345px;
@@ -212,19 +217,25 @@
 }
 
    footer{
-       width:375px;
+       min-width:375px;
        display:flex;
        justify-content:center;
    }
+
+.footer-inner{
+    width:375px;
+    margin:0 auto;
+}
 
    .footer-menu{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    margin: 0px 100px 12px 100px;
+    margin: 0px auto 12px auto;
     padding-top:25px;
     margin-bottom:0;
     width:375px;
+
 }
 footer ul{
     display:block;
