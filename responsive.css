@@ -1,35 +1,47 @@
 
 @media screen and (max-width:320px){
    body{
-       max-width:1080px;
-       width:80%;
-       margin-left:auto;
-       margin-right:auto;
+       min-width:375px;
+       width:375px;
+       margin-left:0;
+       margin-right:0;
+       
    }
+
+.wrap{
+    min-width:345px;
+    width:345px;
+    margin:0 15px 0 15px;
+    padding:0;
+}
 
    header{
     min-width:345px;
+    width:375px;
+    margin-left:0;
+    margin-right:0;
    }
 
    .header-inner{
     width:345px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:0;
+    margin-right:0;
+
    }
 
 .top{
     min-width:345px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:0;
+    margin-right:0;
+
 }
 
     .top-inner{
         display:block;
-        /* max-width:1080px; */
         flex-direction: column;
         width:345px;
-        margin-left:auto;
-        margin-right:auto;
+        margin-left:0;
+        margin-right:0;
         text-align:center;
     }
 
@@ -42,7 +54,6 @@
 
    .top-inner h2{
        width:196px;
-       /* height:76px; */
        font-size:28px;
        margin-right:auto;
        margin-left:auto;
@@ -70,24 +81,25 @@
 
    .service{
     margin-top:100px;
-    max-width:1080px;
+    max-width:345px;
     flex-direction: column;
     width:345px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:0;
+    margin-right:0;
    }
 
    .service-title{
-    padding:0 97px;
+    width:345px;
     margin-top:0;
     margin-bottom:0;
     font-size:28px;
    }
 
    .about-title{
-    padding:0 82px;
+    width:345px;
     margin-top:0;
     font-size:28px;
+    margin-bottom:0;
 }
 
 .about-txt{
@@ -97,11 +109,6 @@
 .about-inner2 .about-txt p{
     height:124px;
     margin-bottom: 0;
-}
-
-.news-title{
-    padding:0 74px;
-    font-size: 28px;
 }
 
    .center-line:before,
@@ -123,9 +130,9 @@
    }
 
    .about{
-       width:375px;
-       margin-left:auto;
-       margin-right:auto;
+       width:345px;
+       margin-left:0;
+       margin-right:0;
        display:block;
        justify-content: center;
        margin-top:100px;
@@ -135,8 +142,8 @@
       margin-top:80px;
       flex-direction: column;
       width:345px;
-      margin-left:auto;
-      margin-right:auto;
+      margin-left:0;
+      margin-right:0;
       height:494px;
    }
 
@@ -162,30 +169,36 @@
     height:153px;
     margin-left:0;
     margin-right:0;
+    margin-bottom:0;
     
  }
 
  .about-txt .more-btn{
      margin-left:90px;
      margin-top:30px;
-
  }
 
 .news{
     width:375px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:0;
+    margin-right:0;
 }
 
  .news-title{
     margin-top:100px;
     margin-bottom:80px;
+    width:345px;
+    font-size:28px;
+    line-height:1.5;
+    text-align:center;
+    
 }
     .blog{
         display:block;
-        width:349px;
-        margin-left:auto;
-        margin-right:auto;
+        width:345px;
+        margin-left:0;
+        margin-right:0;
+
     }
 
     .blog img{
@@ -197,13 +210,21 @@
         margin-right:auto;
         margin-top:17px;
     }
+
     .category{
+        margin-bottom:0;
+        width:345px;
+    }
+
+    .category-content{
+        margin-top:24px;
+        margin-bottom:18px;
+    }
+
+    .category-title{
         margin-bottom:0;
     }
 
-    .category{
-        margin-bottom:18px;
-    }
    .footer-rogo{
     width:70px;
     margin-left: auto;
@@ -218,20 +239,24 @@
 
    footer{
        min-width:375px;
+       width:375px;
+       margin-left:0;
+       margin-right:0;
        display:flex;
        justify-content:center;
    }
 
 .footer-inner{
     width:375px;
-    margin:0 auto;
+    margin-left:0;
+    margin-right:0;
 }
 
    .footer-menu{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    margin: 0px auto 12px auto;
+    margin: 0px 0 12px 0;
     padding-top:25px;
     margin-bottom:0;
     width:375px;
@@ -256,8 +281,46 @@ footer ul li{
 }
 
 .last-btn{
-    width:375px;
+    width:345px;
+    margin-left:0;
+    margin-right:0;
 }
 
+.service-center-line:before{
+    margin-right: 18px;
+}
+
+.service-center-line:after{
+    margin-left: 17px;
+}
+
+.about-center-line:before{
+    margin-right: 16px;
+}
+
+.about-center-line:after{
+    margin-left: 16px;
+}
+
+.news-center-line:before{
+    margin-right: 16px;
+}
+
+.news-center-line:after{
+    margin-left: 16px;
+}
 
 }
+
+@media screen and (min-width: 374px) and (max-width: 1079px) {
+    .wrap{
+        margin-left:15px;
+        margin-right:15px;
+    }
+
+    footer{
+        width:1200px;
+    }
+
+
+  }
