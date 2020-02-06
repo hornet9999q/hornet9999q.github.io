@@ -1,44 +1,50 @@
 
 @media screen and (max-width:767px){
-   body{
-       min-width:375px;
-       width:375px;
-       margin-left:0;
-       margin-right:0;
-       
+    body{
+       max-width:375px;
+       width:100%;
+       margin-left:auto;
+       margin-right:auto;
    }
 
    header{
-    min-width:345px;
-    width:375px;
-    margin-left:0;
-    margin-right:0;
+    max-width:375px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
    }
 
    .header-inner{
-    width:345px;
+    max-width:375px;
+    width:100%;
     margin-left:0;
     margin-right:0;
+    padding-left:15px;
+    padding-right:15px;
    }
 
 .top{
-    min-width:345px;
+    max-width:375px;
+    width:100%;
     margin-left:0;
     margin-right:0;
-
 }
 
     .top-inner{
+        max-width:345px;
         display:block;
         flex-direction: column;
-        width:345px;
+        width:100%;
         margin-left:0;
         margin-right:0;
         text-align:center;
+        padding-left:15px;
+        padding-right:15px;
     }
 
    .top-inner img{
-       width:345px;
+       max-width:345px;
+       width:100%;
        height:276px;
        margin-left:auto;
        margin-right:auto;
@@ -54,7 +60,8 @@
 
     .top-txt p{
        margin:0;
-       width:345px;
+       max-width:345px;
+       width:100%;
        height:72px;
     }
 
@@ -64,6 +71,8 @@
 
    .top-txt{
        margin-top:10px;
+       max-width:345px;
+       width:100%;
    }
 
    .contact{
@@ -75,22 +84,24 @@
     margin-top:100px;
     max-width:345px;
     flex-direction: column;
-    width:345px;
-    margin-left:0;
-    margin-right:0;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
     padding-left:15px;
     padding-right:15px;
    }
 
    .service-title{
-    width:345px;
+    max-width:345px;
+    width:100%;
     margin-top:0;
     margin-bottom:0;
     font-size:28px;
    }
 
    .about-title{
-    width:345px;
+    max-width:345px;
+    width:100%;
     margin-top:0;
     font-size:28px;
     margin-bottom:0;
@@ -124,7 +135,8 @@
    }
 
    .about{
-       width:345px;
+       max-width:345px;
+       width:100%;
        margin-left:0;
        margin-right:0;
        display:block;
@@ -137,7 +149,8 @@
    .about-inner{
       margin-top:80px;
       flex-direction: column;
-      width:345px;
+      max-width:345px;
+      width:100%;
       margin-left:0;
       margin-right:0;
       height:494px;
@@ -146,7 +159,8 @@
    .about-inner2{
        margin-top:351px;
        flex-direction: column;
-       width:345px;
+       max-width:345px;
+       width:100%;
        margin-left:auto;
        margin-right:auto;
        margin-bottom:0px;
@@ -154,10 +168,14 @@
    }
    .about-img1{
        margin-left:0;
+       max-width:344px;
+       width:100%;
    }
 
    .about-img2{
     margin-right:0;
+    max-width:344px;
+    width:100%;
 }
 
    .about-txt p{
@@ -175,7 +193,8 @@
  }
 
 .news{
-    width:375px;
+    max-width:345px;
+    width:100%;
     margin-left:0;
     margin-right:0;
     padding-left:15px;
@@ -185,7 +204,8 @@
  .news-title{
     margin-top:100px;
     margin-bottom:80px;
-    width:345px;
+    max-width:345px;
+    width:100%;
     font-size:28px;
     line-height:1.5;
     text-align:center;
@@ -273,6 +293,11 @@ footer ul{
 footer ul li{
     border:none;
     margin-top:12px;
+    
+}
+
+footer ul li:nth-of-type(1){
+    padding-left:18px;
 }
 
 .copyright{
@@ -281,9 +306,10 @@ footer ul li{
 }
 
 .last-btn{
-    width:345px;
-    margin-left:0;
-    margin-right:0;
+    max-width:345px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .service-center-line:before{
@@ -323,13 +349,21 @@ footer ul li{
     }
 
     .header-inner{
+        width:auto;
         padding-left:15px;
         padding-right:15px;
     }
 
-    .top{
+    .top-inner{
+        width:auto;
         padding-left:15px;
         padding-right:15px;
+    }
+
+    .top img{
+        min-width:345px;
+        width:50%;
+
     }
   }
 
