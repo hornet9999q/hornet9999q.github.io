@@ -114,19 +114,7 @@
     font-size:28px;
    }
 
-   .about-title{
-    max-width:629px;
-    width:100%;
-    margin-top:0;
-    font-size:28px;
-    margin-bottom:0;
-    margin-left:auto;
-    margin-right:auto;
-}
 
-.about-txt{
-    padding-top:50px;
-}
 
 .about-inner2 .about-txt p{
     height:124px;
@@ -152,25 +140,38 @@
    }
 
    .about{
-       /* max-width:767px; */
+       max-width:767px;
        width:100%;
-       margin-left:auto;
-       margin-right:auto;
        display:block;
        justify-content: center;
        margin-top:100px;
+       margin-left:auto;
+       margin-right:auto;
        padding-left:15px;
        padding-right:15px;
    }
+   .about-title{
+    max-width:629px;
+    width:100%;
+    margin-top:0;
+    font-size:28px;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+}
 
+.about-txt{
+    padding-top:50px;
+}
    .about-inner{
       margin-top:80px;
       flex-direction: column;
       /* max-width:767px; */
       width:100%;
-      margin-left:auto;
-      margin-right:auto;
+      /* margin-left:auto;
+      margin-right:auto; */
       height:494px;
+      
    }
 
    .about-inner2{
@@ -380,6 +381,10 @@ footer ul li:nth-of-type(1){
     margin-left: 16px;
 }
 
+.top-br{
+    display:inline;
+}
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1079px) {
@@ -413,6 +418,14 @@ footer ul li:nth-of-type(1){
 
     }
 
+
+    .top{
+        box-sizing:border-box;
+    }
+
+    .top-inner{
+        box-sizing:border-box;
+    }
     .about{
         width:100%;
         margin-left:auto;
@@ -422,29 +435,27 @@ footer ul li:nth-of-type(1){
         margin-top:100px;
         padding-left:15px;
         padding-right:15px;
+        box-sizing:border-box;
     }
     
      .news{
         width:100%;
         padding-left:15px;
         padding-right:15px;
+        box-sizing:border-box;
+     }
+     footer{
+        padding-left:0;
+        padding-right:0;
+        box-sizing:border-box;
+     }
+     .footer-inner{
+        box-sizing:border-box;
      }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     .footer-menu{
+        box-sizing:border-box;
+     }
   }
 
 
@@ -465,9 +476,5 @@ footer ul li:nth-of-type(1){
           margin-right:0;
       } */
 
-     footer{
-        padding-left:0;
-        padding-right:0;
-     }
 
   }
