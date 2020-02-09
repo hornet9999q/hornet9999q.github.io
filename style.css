@@ -4,7 +4,6 @@ html{
 }
 
 body{
-    /* width:1080px; */
     width:100%;
     height:100%;
     margin:0 auto;
@@ -14,8 +13,6 @@ body{
 .inner{
     width:1080px;
     width:100%;
-    /* overflow: hidden; */
-    /* min-width:1080px; */
     width:100%;
 }
 
@@ -31,7 +28,6 @@ header{
     height:70px;
     margin-left:auto;
     margin-right:auto;
-    align-items:center;
 }
 
 .header-inner{
@@ -45,7 +41,6 @@ header{
 }
 
 .header-inner h1{
-    /* margin:0; */
     line-height:1.7;
     height:33px;
 }
@@ -53,7 +48,6 @@ header{
 .navi{
     display:block;
     width:130px;
-    /* margin-top:18px; */
     height:33px;
 }
 
@@ -81,7 +75,6 @@ header{
     background:#109954;
     border-radius:32px;
     padding:15px 39px;
-    /* margin:0; */
     text-decoration: none;
     display:inline-block;
     font-weight:bold;
@@ -92,8 +85,7 @@ header{
 }
 
 .document-request{
-    width:144px;
-    /* width:100%; */
+    /* width:144px; */
     height:18px;
     border-radius:32px;
     background-color:#FFFFFF;
@@ -102,11 +94,11 @@ header{
     padding:15px 39px;
     display:inline-block;
     margin:0;
-    text-align:center;
     text-decoration: none;
     font-weight:bold;
     box-shadow:3px 3px 10px #00000029;
     line-height:1.3;
+    
 }
 
 .top-btn{
@@ -115,13 +107,10 @@ header{
 }
 
 .top{
-    /* max-width:1080px; */
     width:100%;
     height:auto;
     margin-left:auto;
     margin-right:auto;
-    /* display:flex;
-    justify-content:space-between; */
 }
 
 .top-inner{
@@ -156,8 +145,7 @@ header{
     color:#333333;
     font-size: 36px;
     font-weight:bold;
-    width:100%;
-    max-width:504px;
+    width:504px;
     margin-top:0;
     line-height:1.5;
 }
@@ -292,6 +280,8 @@ header{
     margin:0;
     margin-bottom:30px;
     margin-top:0;
+    line-height:1;
+    height:32px;
 }
 
 .about-recruit p{
@@ -304,7 +294,6 @@ header{
     max-width:450px;
     width:50%;
     line-height:1.7;
-    align-items:center;
 }
 
 .about-txt p{
@@ -313,6 +302,7 @@ header{
     max-width:450px;
     width:100%;
     line-height:1.7;
+    margin-top:0;
 }
 
 .about-txt2 p{
@@ -361,7 +351,6 @@ header{
 .blog img{
     max-width:300px;
     width:100%;
-    /* height: 168px; */
     display:flex;
     justify-content:left;
     width:30%;
@@ -431,19 +420,13 @@ header{
 footer{
     background:#E8E8E8;
     text-align:center;
-    /* margin-left:0;
-    margin-right:0; */
-    /* max-width:1080px; */
     width:100%;
     padding-right:15px;
     padding-left:15px;
 }
 
 .footer-inner{
-    /* max-width:1080px; */
-    /* width:100%; */
     margin:0 auto;
-    align-items:center;
     box-sizing:border-box;
 
 }
@@ -457,7 +440,6 @@ footer{
     width:100%;
     margin-left:auto;
     margin-right:auto;
-    /* word-break: break-word; */
     box-sizing:border-box;
 }
 
@@ -478,12 +460,9 @@ footer{
     display:flex;
     align-items:center;
     font-size:14px;
-    white-space: nowrap;
     list-style: none;
     height:20px;
     padding-left:0;
-    max-width:600px;
-    width:100%;
     box-sizing:border-box;
 }
 
@@ -492,7 +471,6 @@ footer{
     border-left:solid 1px black;
     margin:0;
     line-height:1.7;
-    align-items:center;
     box-sizing:border-box;
 }
 

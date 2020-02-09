@@ -432,19 +432,28 @@
         padding-right:15px;
     }
 
+    .contact{
+        margin-right:0;
+    }
+
+    .document-request{
+        padding:15px 35px;
+    }
+
+    .top-txt{
+        width:50%;
+    }
+
     .top-img{
         max-width:767px;
         width:50%;
         height:auto;
         margin-left:auto;
         margin-right:auto;
-        height:auto;
     }
     .top-inner h2{
         font-size:28px;
-
     }
-
 
     .top{
         box-sizing:border-box;
@@ -464,7 +473,26 @@
         padding-right:15px;
         box-sizing:border-box;
     }
-    
+
+    .about-recruit{
+        margin-bottom:0;
+    }
+    .about-txt p{
+        margin-bottom:0;
+    }
+    .about-txt2 p{
+        margin-bottom:0;
+    }
+
+    .about-txt2{
+        max-height:278px;
+        height:100%;
+    }
+
+    .about-br{
+        display:none;
+     }
+
      .news{
         width:100%;
         padding-left:15px;
@@ -498,5 +526,14 @@
       .inner{
         overflow: hidden;
         min-width:1080px;
+    }
+
+    .about-txt p{
+        margin-bottom:29px;
+    }
+
+    footer{
+        padding-left:0;
+        padding-right:0;
     }
   }
