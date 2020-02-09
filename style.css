@@ -1,7 +1,6 @@
 html{
     width:100%;
     height:100%;
-    
 }
 
 body{
@@ -9,8 +8,7 @@ body{
     width:100%;
     height:100%;
     margin:0 auto;
-    font-family: Yu Gothic,'sans-serif';
-    
+    font-family: YuGothic,'Yu Gothic',sans-serif;
 }
 
 .inner{
@@ -165,7 +163,6 @@ header{
 }
 
 .top img{
-    max-width:560px;
     width:100%;
     height:448px;
 }
@@ -239,7 +236,6 @@ header{
 .about-img1{
     max-width:450px;
     width:100%;
-    height:278px;
     box-shadow: 0px 11px 20px #00000029;
 }
 
@@ -262,31 +258,37 @@ header{
     margin-top:100px;
     max-width:940px;
     width:100%;
-    /* height:278px; */
     margin-left:auto;
     margin-right:auto;
     align-items:center;
 }
 
 .about-inner2 .about-txt p{
-    /* height:97px; */
     line-height:1.5;
 }
 
-/* .about-img1{
-    margin-left:40px;
+.about-inner2 figure,
+.about-inner figure{
+    width:50%;
 }
 
-.about-img2{
-    margin-right:40px;
-} */
+.about-inner figure{
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.about-inner2 figure{
+    margin-left:0;
+    margin-top:0;
+    margin-bottom:0;
+}
 
 .about-recruit{
     color:#109954;
     font-size:32px;
     max-width:144px;
     width:100%;
-    /* height: 32px; */
     margin:0;
     margin-bottom:30px;
     margin-top:0;
@@ -296,13 +298,13 @@ header{
     line-height:1.7;
 }
 
+.about-txt2,
 .about-txt{
     display:block;
     max-width:450px;
-    width:100%;
+    width:50%;
     line-height:1.7;
     align-items:center;
-    
 }
 
 .about-txt p{
@@ -311,6 +313,16 @@ header{
     max-width:450px;
     width:100%;
     line-height:1.7;
+}
+
+.about-txt2 p{
+    font-size: 16px;
+    text-align:left;
+    max-width:450px;
+    width:100%;
+    line-height:1.7;
+    margin-top:0;
+    margin-bottom:30px;
 }
 
 .news{
@@ -349,8 +361,7 @@ header{
 .blog img{
     max-width:300px;
     width:100%;
-    height: 168px;
-    /* margin:18px 34px 18px 0; */
+    /* height: 168px; */
     display:flex;
     justify-content:left;
     width:30%;
@@ -424,8 +435,8 @@ footer{
     margin-right:0; */
     /* max-width:1080px; */
     width:100%;
-    padding-left:15px;
     padding-right:15px;
+    padding-left:15px;
 }
 
 .footer-inner{
@@ -434,6 +445,7 @@ footer{
     margin:0 auto;
     align-items:center;
     box-sizing:border-box;
+
 }
 
 .footer-menu{
@@ -473,7 +485,6 @@ footer{
     max-width:600px;
     width:100%;
     box-sizing:border-box;
-
 }
 
 .footer-menu  ul li{
@@ -539,7 +550,7 @@ img{
     line-height:1;
 }
 
-.last-btn-innner{
+.last-btn-inner{
     max-width:1080px;
     width:100%;
     padding-left:15px;
@@ -628,3 +639,4 @@ img{
 .top-br{
     display:none;
 }
+
